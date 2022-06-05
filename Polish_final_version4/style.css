@@ -1,0 +1,536 @@
+body {
+    background: url('/graphics/background.jpg');
+    background-size: auto;
+    background-repeat: repeat;
+    color: #1c1e21;
+    font-family: arial;
+    font-size: 16px;
+    padding-top:7%;
+}
+
+/* logowanie/rejestrowanie */
+#login {
+    margin: auto;
+    width: 30%;
+    background-color: rgb(255, 255, 255, 0.6);
+    padding-top: 7%;
+    padding-bottom: 7%;
+    box-shadow: 1px 1px 3px #333;
+    margin-top:1%;
+    
+}
+
+#login_form {
+    padding: 5%;
+    text-align: center;
+
+}
+
+#login_form>input {
+    width: 50%;
+    box-shadow: 1px 1px 3px #333;
+}
+
+#login_form>h2 {
+    margin-bottom: 4%;
+}
+
+
+
+
+
+/* logowanie/rejestrowanie */
+
+
+/* wyszukiwanie */
+#search,
+#search2,
+#add_classified {
+    margin: auto;
+    margin-top:0;
+    width: 50%;
+    background-color: rgb(255, 255, 255, 0.6);
+    padding-top: 2%;
+    padding-bottom: 7%;
+    box-shadow: 1px 1px 3px #333;
+    text-align: center;
+}
+
+#search2 {
+    display: none;
+}
+
+
+#search>.button-79 {
+    size: 20%;
+}
+
+#search_form,
+#add_form
+ {
+
+    padding: 5%;
+    text-align: center;
+
+}
+
+#search_form>input,
+#add_form > input {
+    width: 49%;
+    box-shadow: 1px 1px 3px #333;
+}
+
+
+
+#search_form>h1,
+#search_form2>h2,
+#add_form > h2{
+    margin-bottom: 4%;
+    font-size:200%;
+    float:center;
+}
+
+#search_form>select,
+#add_form >select {
+    width: 25%;
+    box-shadow: 1px 1px 3px #333;
+}
+
+#add_form>textarea{
+    width:50%;
+}
+
+/* post */
+
+#post {
+    width: 50%;
+    background-color: rgb(255, 255, 255, 0.6);
+    margin: auto;
+    margin-top: 2%;
+    box-shadow: 1px 1px 3px #333;
+    padding-top:1%;
+    text-align: center;
+    
+}
+
+
+#post>a{
+    text-decoration: none;
+}
+
+#post>a>h1,
+#single_post>h1{
+    font-size:200%;
+    color:rgb(8, 7, 7);
+    
+}
+
+#post>a>img{
+    width:400px;
+    height:300px;
+    float:center;
+    margin:0;
+    margin-top:2%;
+    margin-bottom:2%;
+    box-shadow: 1px 1px 3px #333;
+}
+
+#post>input {
+    width: 50%;
+    box-shadow: 1px 1px 3px #333;
+}
+
+#post>h2 {
+    margin-bottom: 4%;
+}
+
+
+#post>footer,
+#single_post>footer{
+    padding:5%;
+}
+
+#post>footer>.button-79{
+    background-color: red;
+    float:right;
+    width:10%;
+    margin:0;
+    padding:0.5%;
+}
+
+
+/*single post */
+#single_post{
+    width: 80%;
+    margin: auto;
+    margin-top: 2%;
+    background-color: rgb(255, 255, 255, 0.6);
+    padding-top:1%;
+    text-align: center;
+}
+
+#single_post>img{
+    width:400px;
+    height:300px;
+    margin:2%;
+
+    box-shadow: 1px 1px 3px #333;
+}
+
+#single_post>footer>.button-79{
+    background-color: red;
+    float:right;
+    width:10%;
+    margin:0;
+    padding:0.5%;
+}
+
+/* menu */
+
+
+#menu{
+    float:right;
+    width:70%;
+    margin-top:1%;
+    margin-right:5%;
+}
+
+#menu  a {
+    padding: 1em 1.5em;
+    text-decoration: none;
+    font-weight: 400;
+    color: rgba(0, 0, 0, .8);
+    float:right;
+}
+
+
+
+body>nav,
+body>section {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+
+
+    padding: 0;
+
+
+}
+
+
+
+
+
+body>header{
+    position: fixed;
+    right: 0;
+    top: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 1px 1px 3px #333;
+    width: 90%;
+    z-index: 2;
+    background-color: rgb(255, 255, 255, 1);
+}
+
+
+body>footer {
+    margin:auto;
+    box-shadow: 1px 1px 3px #333;
+    color: #1c1e21;
+    width: 88%;
+    text-align: center;
+    font-size: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    background-color: rgb(255, 255, 255, 0.6);
+    padding:1%;
+    
+    
+}
+
+
+
+section>nav {
+    padding-top: 10px;
+    width: 100%;
+}
+
+section>nav table {
+    width: 100%;
+}
+
+section>nav td {
+    text-align: center;
+    width: 20%;
+}
+
+
+
+
+
+
+.button-63:active,
+.button-63:hover {
+    outline: 0;
+}
+
+@media (min-width: 768px) {
+    .button-63 {
+        font-size: 24px;
+        min-width: 196px;
+    }
+}
+
+form>header h2 {
+    padding: 1ex;
+    margin: 0;
+    text-align: left;
+}
+
+select {
+
+    /* styling */
+    width: 100%;
+    margin: 1ex 0;
+    border-radius: 5px;
+    padding: 1ex;
+    font-family: arial;
+    font-size: 16px;
+    color: #003;
+    border: 1px solid #888;
+}
+
+form input,
+form textarea {
+    width: 95%;
+    margin: 1ex 0;
+    border-radius: 5px;
+    padding: 1ex;
+    font-family: arial;
+    font-size: 16px;
+    color: #003;
+    border: 1px solid #888;
+}
+
+
+
+
+.error {
+    width: 100%;
+    border: 1px colid #f00;
+    color: #f00;
+}
+
+.user-info {
+    text-align: right;
+}
+
+.user-info>div {
+    float: left;
+}
+
+.user-info table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0 10px 0;
+}
+
+.user-info table td,
+.user-info table th {
+    width: 25%;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+table caption {
+    font-size: 120%;
+    font-weight: bold;
+    color: #fff;
+    background-color: #888;
+    padding: 5px;
+    margin-top: 10px;
+
+}
+
+
+#result {
+    border: 1px dotted #ccc;
+    padding: 3px;
+}
+
+#result ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#result ul li {
+    padding: 5px 0;
+}
+
+#result ul li:hover {
+    background: #eee;
+}
+
+
+#search > .button-79{
+    width:15%;
+    height: 5%;
+    margin-top: 0;
+}
+#search > #search_form > .button-79{
+    width:15%;
+    height: 5%;
+}
+
+
+
+/* button */
+.button-79 {
+    backface-visibility: hidden;
+    background: #3f97df;
+
+    border-radius: .375rem;
+
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Circular, Helvetica, sans-serif;
+    font-size: 100%;
+    font-weight: 700;
+    letter-spacing: -.01em;
+    line-height: 1.3;
+    padding: 1%;
+    margin-top: 4%;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    z-index: 0;
+    transform: translateZ(0) scale(1);
+    transition: transform .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width:40%;
+    box-shadow: 1px 1px 3px #333;
+}
+
+.button-79:disabled {
+    color: #787878;
+    cursor: auto;
+}
+
+.button-79:not(:disabled):hover {
+    transform: scale(1.05);
+}
+
+.button-79:not(:disabled):hover:active {
+    transform: scale(1.05) translateY(.125rem);
+}
+
+.button-79:focus {
+    outline: 0 solid transparent;
+}
+
+.button-79:focus:before {
+    border-width: .125rem;
+    content: "";
+    left: calc(-1*.375rem);
+    pointer-events: none;
+    position: absolute;
+    top: calc(-1*.375rem);
+    transition: border-radius;
+    user-select: none;
+}
+
+.button-79:focus:not(:focus-visible) {
+    outline: 0 solid transparent;
+}
+
+.button-79:not(:disabled):active {
+    transform: translateY(.125rem);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Nosifer');
+#logo_text{
+    font-family: Nosifer, cursive;
+    text-align: center;
+    font-size: 200%;
+    color: rgb(31, 143, 255);
+    text-shadow: rgb(94, 94, 94) 2px 2px 2px;
+    float:left;
+    margin-left:5%;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Holtwood+One+SC');
+#menu_text{
+    font-family: "Holtwood One SC", serif;
+    text-align: center;
+    font-size: 120%;
+    color: rgb(0, 0, 0);
+    
+    
+}
+
+
+    table {
+        table-layout: fixed;
+        width: 100%;
+        border-collapse: collapse;
+        box-shadow: 1px 1px 3px #333;
+      }
+      
+      thead th:nth-child(1) {
+        width: 30%;
+      }
+      
+      thead th:nth-child(2) {
+        width: 20%;
+      }
+      
+      thead th:nth-child(3) {
+        width: 15%;
+      }
+      
+      thead th:nth-child(4) {
+        width: 35%;
+      }
+      thead th:nth-child(5) {
+        width: 55%;
+      }
+      
+      th, td {
+        padding: 20px;
+      }
+
+    thead th, tfoot th {
+        font-family: 'Rock Salt', cursive;
+      }
+      
+      th {
+        letter-spacing: 2px;
+      }
+      
+      td {
+        letter-spacing: 1px;
+      }
+      
+      tbody td {
+        text-align: center;
+      }
+      
+      tfoot th {
+        text-align: right;
+      }
+      thead, tfoot {
+        
+        color: white;
+        text-shadow: 1px 1px 1px black;
+      }
+      
+      thead th, tfoot th, tfoot td {
+        background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+        
+      }
