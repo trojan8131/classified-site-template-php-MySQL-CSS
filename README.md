@@ -1,7 +1,8 @@
 # classified-site-template-php-MySQL-CSS
 Here we done simple template for your classified website. You will get it completely free and documented!
 
-
+<!-- important -->
+## Polish version is newer and have more options like pagination
 <!-- demo -->
 ## Example Folder
 
